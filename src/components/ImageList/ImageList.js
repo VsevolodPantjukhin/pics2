@@ -2,9 +2,10 @@ import React from 'react';
 
 import ImageShow from '../ImageShow/ImageShow';
 
-const ImageList = () => {
+const ImageList = ({ images }) => {
   return (
     <div>
+      ImageList: {images.length}
       <ImageShow />
     </div>
   );
